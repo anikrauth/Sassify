@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import { BorderBeam } from "@/components/magicui/border-beam";
+import Link from "next/link";
 
 export default function HeroSection() {
     return (
@@ -34,11 +35,11 @@ export default function HeroSection() {
                                 <span>Get Started</span>
                                 {/* <ArrowRight className="w-5 h-5 ml-2" /> */}
                             </Button>
-                            <Button className=" transition-all duration-500 bg-transparent dark:text-white text-primary hover:bg-primary hover:text-white dark:hover:bg-white dark:hover:text-primary">
+                            <Link href="https://www.devbucket.co/saas-offer" className="whitespace-nowrap px-4 py-2 h-10 rounded-md flex items-center justify-center transition-all duration-500 bg-transparent dark:text-white text-primary hover:bg-primary hover:text-white dark:hover:bg-white dark:hover:text-primary">
                                 <span>
-                                    See how it works</span>
+                                Get it now free</span>
                                 <ArrowRight className="w-5 h-5 ml-2" />
-                            </Button>
+                            </Link>
                         </div>
                     </div>
                     {/*  */}

@@ -5,6 +5,7 @@ import ClientSection from "./_utils/components/Client_Section";
 import { MarqueeReviewSection } from "./_utils/components/Review_Section";
 import ShinyButton from "@/components/magicui/shiny-button";
 import PricingSection from "./_utils/components/Pricing_Section";
+import CTA_Section from "./_utils/components/CTA_Section";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       </div>
       <MarqueeReviewSection />
       <PricingSection />
+      <CTA_Section />
     </main>
   );
 }
